@@ -1,0 +1,11 @@
+package singleton.student;
+
+public class School {
+	private static School instance;
+	
+	private School() {}
+	
+	private void School getInstance() {
+		
+	}
+}

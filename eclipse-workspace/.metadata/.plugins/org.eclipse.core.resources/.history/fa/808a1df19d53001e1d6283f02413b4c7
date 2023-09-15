@@ -1,0 +1,28 @@
+package typinggame;
+
+public class TypingGame {
+
+	public static void main(String[] args) {
+		//영어 단어가 랜덤하게 화면에 출제되면 타이핑 하기
+		//오타 없으면 통과, 있으면 "재도전"
+		//10 문제 수정
+		//시간 측정
+		
+		String[] words = {"ant", "beer", "chicken", "cat", "dog", "elephant", "fox", "frog", "horse", "monkey", "tiger"};
+		
+		int rand = (int)(Math.random()*words.length);
+		System.out.println(words[rand]);
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}//main
+
+}
