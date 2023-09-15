@@ -1,0 +1,37 @@
+package banking;
+
+public class Banking {
+
+	public static void main(String[] args) {
+		// 은행 업무
+		// 1.예금 2.출금 3.잔고(balance) 4.종료
+		// 메뉴 화면 만들기
+		
+		int balance = 0;
+		
+		while(true)
+		System.out.println("============================");
+		System.out.println("1.예금 | 2.출금 | 3.잔고 | 4.종료");
+		System.out.println("============================");
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}//main
+
+}//class

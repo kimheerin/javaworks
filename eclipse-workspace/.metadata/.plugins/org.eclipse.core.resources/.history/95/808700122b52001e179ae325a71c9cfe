@@ -1,0 +1,26 @@
+package kr.or.iei.run;
+
+import kr.or.iei.model.User;
+
+public class UserTest2 {
+
+	public static void main(String[] args) {
+		//user1 - 인스턴스(객체) | 2.매개변수가 있는 생성자 출력
+		/*User user1 = new User("bbb222", "kakaka", "희린김");
+		
+		System.out.println("계정 : " + user1.getId());
+		System.out.println("암호 : " + user1.getpwd());
+		System.out.println("이름 : " + user1.getname());*/
+		
+		User apple = new User("iphone", "12", "pro");
+		User mango = new User("galaxy", "flip4", "jy");
+		
+		System.out.println("     계정     |     암호       |     이름");
+		System.out.println("   " + apple.getId() + "\t   " + apple.getpwd() +"\t         "+ apple.getname());
+		System.out.print("   " +mango.getId() +"\t  "+ mango.getpwd() +"\t          "+ mango.getname());
+		
+		
+	}
+
+}
+

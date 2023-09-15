@@ -1,0 +1,12 @@
+package swtichexample;
+
+public class SwitchCaseTest4 {
+
+	public static void main(String[] args) {
+		// 특정 일이 며칠까지 있는지 출력
+		// 변수 - month, day
+		// 31일 - 1, 3, 5, 7, 8,
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package forexample;
+
+public class NestedFor1 {
+
+	public static void main(String[] args) {
+		// 중접 for문
+		// 5행 5열에 '*' 출력
+		for(int i=1; i<=5; i++) {
+			System.out.print('*'+" ");
+		}for(int j=1; j<=5; j++) {
+			System.out.println('*');
+		}
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="dates.LocalDateTimeTest0908"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.DateTimeAtCompleted"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="classes.methods.Calculator"/>
+    <fullyQualifiedTypeName name="classes.constructor.NumberSample"/>
+    <fullyQualifiedTypeName name="hiding.acoounts.Account"/>
+    <fullyQualifiedTypeName name="hiding.accounts.Account"/>
+    <fullyQualifiedTypeName name="thisssamples.Birthday"/>
+    <fullyQualifiedTypeName name="referance.circle.PointTest"/>
+    <fullyQualifiedTypeName name="java.awt.Point"/>
+    <fullyQualifiedTypeName name="referance.circle.point"/>
+    <fullyQualifiedTypeName name="referance.circle.Circle"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
+    <fullyQualifiedTypeName name="referance.subjects.Subject"/>
+    <fullyQualifiedTypeName name="transport.Subway"/>
+    <fullyQualifiedTypeName name="inheritance.airplane.SuperAirPlane"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="inheritance.q4.Employee"/>
+    <fullyQualifiedTypeName name="protectedex.park1.A"/>
+    <fullyQualifiedTypeName name="overriding.shop.Shop2"/>
+    <fullyQualifiedTypeName name="overriding.shop.HeadShop"/>
+    <fullyQualifiedTypeName name="polymorphism.fruit.Banana"/>
+    <fullyQualifiedTypeName name="polymorphism.fruit.Pitch"/>
+    <fullyQualifiedTypeName name="polymorphism.fruit.Fruit"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="banking.array.Account"/>
+    <fullyQualifiedTypeName name="kr.or.iei.model.User"/>
+</qualifiedTypeNameHistroy>

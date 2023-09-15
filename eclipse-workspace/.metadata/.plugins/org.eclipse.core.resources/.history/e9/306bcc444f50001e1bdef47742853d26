@@ -1,0 +1,13 @@
+package classes.methods;
+
+public class CalculatorTest {
+
+	public static void main(String[] args) {
+		// Calculator 객체 생성
+		Calculator calc = new Calculator();
+		calc.add(10, 11);
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package constant;
+
+public class PrintFormat {
+
+	public static void main(String[] args) {
+		//printf("문자열 포맷", 객체(변수))
+		//정수 - %d, 실수 %f, 문자 %s
+		
+		int year = 2023;
+		System.out.printf("올해는 %d년입니다.", year);
+		
+		
+	}
+
+}

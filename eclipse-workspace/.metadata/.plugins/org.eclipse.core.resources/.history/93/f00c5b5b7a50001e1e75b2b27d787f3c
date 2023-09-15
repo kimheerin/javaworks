@@ -1,0 +1,25 @@
+package objectarray.dogs;
+
+public class DogArray {
+
+	public static void main(String[] args) {
+		// Dog 인스탠스 4개를 생성해서 배열에 저장하고
+		// 정보를 출력하세요(get()함수 사용
+		
+		Dog[] dogs = new Dog[4];
+
+		dogs[0] = new Dog("하트", "진돗개");
+		dogs[1] = new Dog("별", "말티즈");
+		dogs[2] = new Dog("다이아", "웰시코기");
+		dogs[3] = new Dog("스퀘어", "닥스훈트");
+		
+		//전체 출력
+		for(int i=1; i<dogs.length; i++) {
+			System.out.print(dogs[i].getName() + " | ");
+			System.out.println(dogs[i].getType());
+		}
+		
+		
+	}
+
+}

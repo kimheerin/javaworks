@@ -1,0 +1,16 @@
+package wrapper;
+
+public class IntegerTest {
+
+	public static void main(String[] args) {
+		// int num1 = 100;
+		Integer num1 = 100;
+		int num2 = 200;
+		
+		int sum = num1.intValue() + num2;	// Integer 입력 -> 변수명.intValue 출력
+		
+		System.out.println(num1);
+		System.out.println(sum);
+	}
+
+}

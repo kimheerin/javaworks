@@ -1,0 +1,14 @@
+package constant;
+
+public class ConstantTest1 {
+
+	public static void main(String[] args) {
+		// 상수 선언 및 사용
+		
+		int maxNum = 100;
+		
+		System.out.println(maxNum);
+
+	}
+
+}

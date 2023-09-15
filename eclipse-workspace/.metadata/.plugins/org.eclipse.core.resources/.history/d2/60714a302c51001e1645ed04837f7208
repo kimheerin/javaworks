@@ -1,0 +1,19 @@
+package statics;
+
+public class Student {
+	
+	//1.필드
+	static int serialNum = 1000;		//static == 자동 증가
+	int id;						//
+	String name;				//학생명
+	
+	public Student() {
+		serialNum++;			// 1000 + 1 ==> 1001
+		id = serialNum;
+	}
+	public int getid() {
+		return id;
+	}
+	
+	
+}//class

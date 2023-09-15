@@ -1,0 +1,15 @@
+package referance.subject2;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		// Student 참조 ★?
+		Student kim = new Student(101, "김희린");
+		
+		kim.addSubject("영어", 85);
+		kim.addSubject("수학", 90);
+		kim.addSubject("국어", 100);
+		kim.showStudentInfo();
+	}
+
+}

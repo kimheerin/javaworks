@@ -1,0 +1,17 @@
+package seets;
+
+import java.util.Scanner;
+
+public class SeetAllocation0908 {
+
+	public static void main(String[] args) {
+		// 자리 배치도
+		// 변수 - customer(입장객 수), column(좌석 열), row(줄)
+		Scanner scan = new Scanner(System.in);
+		
+		
+		
+
+	}
+
+}

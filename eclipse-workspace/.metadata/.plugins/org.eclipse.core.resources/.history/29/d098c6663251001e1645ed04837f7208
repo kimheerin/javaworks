@@ -1,0 +1,11 @@
+package inheritance.person;
+
+public class PersonTest {
+
+	public static void main(String[] args) {
+		Engineer lee = new Engineer();
+		
+
+	}
+
+}

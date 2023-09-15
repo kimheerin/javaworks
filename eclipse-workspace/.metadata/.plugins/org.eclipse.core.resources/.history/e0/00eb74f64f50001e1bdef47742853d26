@@ -1,0 +1,20 @@
+package classes.methods;
+
+public class CalculatorTest {
+
+	public static void main(String[] args) {
+		// 정수형 Calculator 객체 생성
+		Calculator calc = new Calculator();
+		int num1 = 10, num2 = 2;
+		
+		//int add = calc.add(10, 11);	//변수 사용
+		int add = calc.add(num1, num2);	//int add 붙이기		
+		int sub = calc.add(num1, num2);	
+		
+		System.out.println("total : " + add);
+		System.out.println("total : " + sub);
+		
+
+	}
+
+}

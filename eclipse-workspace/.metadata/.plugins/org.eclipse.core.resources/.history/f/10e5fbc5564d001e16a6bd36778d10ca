@@ -1,0 +1,21 @@
+package arrays;
+
+public class ArraysTest3 {
+
+	public static void main(String[] args) {
+		// 크기가 4인 정수형 배열 선언
+		
+		int[] number = new int[4];
+		
+		//입력
+		number[0] = 10;
+		number[1] = 20;
+		number[3] = 30;
+		
+		
+		//2번 인덱스 값 출력
+		
+
+	}
+
+}

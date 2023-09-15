@@ -1,0 +1,13 @@
+package statics.card;
+
+public class CardTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Card card1 = new Card();
+		
+		System.out.println(card1.getCardNum());
+	}
+
+}

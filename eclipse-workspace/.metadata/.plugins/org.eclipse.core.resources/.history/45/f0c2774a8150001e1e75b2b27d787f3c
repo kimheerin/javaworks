@@ -1,0 +1,24 @@
+package referance.subjects;
+
+//Student 
+public class StudentMain {
+
+	public static void main(String[] args) {
+		Student stdi = new Student(101, "김희린");
+		Student stdi2 = new Student(102, "최은호");
+		
+		//과목 추가
+		stdi.koreanSubject("국어", 90);
+		stdi.mathSubject("수학", 99);
+		stdi2.koreanSubject("국어", 10);
+		stdi2.mathSubject("수학", 15);
+		
+		
+		//학생 정보 출력
+		stdi.showStudentInfo();
+		System.out.println("===================");
+		stdi2.showStudentInfo();
+
+	}
+
+}

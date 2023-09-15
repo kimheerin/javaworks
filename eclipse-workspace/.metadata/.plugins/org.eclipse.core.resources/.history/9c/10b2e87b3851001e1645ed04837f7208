@@ -1,0 +1,6 @@
+package inheritance.airplane;
+//자식 class
+public class SuperAirPlane extends AirPlane {
+	
+
+}

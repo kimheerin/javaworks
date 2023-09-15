@@ -1,0 +1,10 @@
+package ifexample;
+
+public class ScorePointTest {
+
+	public static void main(String[] args) {
+		// 점수에 따른 학점 계싼 프로그램
+		
+	}
+
+}

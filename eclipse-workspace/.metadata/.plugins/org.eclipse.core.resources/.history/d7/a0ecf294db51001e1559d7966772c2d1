@@ -1,0 +1,12 @@
+package overriding.shop;
+
+public class MainClass2 {
+
+	public static void main(String[] args) {
+		// 자동 형변환
+		HeadShop shop11 = new Shop1();
+		
+		shop11.비빔밥();
+	}
+
+}

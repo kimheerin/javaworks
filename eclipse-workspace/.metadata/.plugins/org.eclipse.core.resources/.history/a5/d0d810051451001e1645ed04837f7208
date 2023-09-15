@@ -1,0 +1,13 @@
+package referance.subject2;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student kim = new Student(101, "김희린");
+		
+		kim.addSubject("영어", 100);
+		kim.showStudentInfo();
+	}
+
+}

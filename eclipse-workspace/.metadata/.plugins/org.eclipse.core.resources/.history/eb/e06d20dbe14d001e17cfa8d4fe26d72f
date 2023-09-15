@@ -1,0 +1,14 @@
+package data;
+
+public class FloatDouble0908 {
+
+	public static void main(String[] args) {
+		// 실수 자료형
+		float fNum = 1.23456789f;
+		double dNum = 1.2345678901234567;
+		
+		System.out.println(fNum);
+
+	}
+
+}

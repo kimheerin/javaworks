@@ -1,0 +1,21 @@
+package statics;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		//인스턴스 객체 변수 | 학생
+		Student s1 = new Student();
+		Student s2 = new Student();
+		
+		s1.serialNum++;						//static 뺐을 때 1001
+		System.out.println(s1.serialNum);	//넣으면 1001
+		s2.serialNum++;						//static 뺐을 때 1001
+		System.out.println(s2.serialNum);	//넣으면 1002
+		
+		/*System.out.println("s1 : " + s1.getid());
+		System.out.println("s2 : " + s2.getid());*/
+		
+
+	}
+
+}

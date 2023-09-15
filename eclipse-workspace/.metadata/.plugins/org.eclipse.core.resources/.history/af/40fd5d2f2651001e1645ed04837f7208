@@ -1,0 +1,18 @@
+package transport;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//사람 객체
+		Person p1 = new Person("홍길동", 10000);
+		//버스 객체
+		Bus bus100 = new Bus(100);
+		
+		p1.takeBus(bus100);
+		
+		p1.showPersonInfo();
+		bus100.showBusInfo();
+
+	}
+
+}

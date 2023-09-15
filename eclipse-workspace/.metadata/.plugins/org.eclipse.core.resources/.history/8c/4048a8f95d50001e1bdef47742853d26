@@ -1,0 +1,15 @@
+package hiding.acoounts;
+
+//은행 통상 계좌 자료형 생성
+public class Account {
+	public String ano;		//계좌 번호
+	public String owner;	//예금주
+	public int balance;		//잔고
+	
+	//기본 생성자
+	public Account() {}
+	
+
+	}
+
+

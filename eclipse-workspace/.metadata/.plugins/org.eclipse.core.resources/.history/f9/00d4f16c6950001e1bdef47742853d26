@@ -1,0 +1,15 @@
+package referance.circle;
+
+//point 자료형 생성
+public class point {
+	//점의 자료 - 필드
+	int x;
+	int y;
+	
+	public point(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+
+
+}

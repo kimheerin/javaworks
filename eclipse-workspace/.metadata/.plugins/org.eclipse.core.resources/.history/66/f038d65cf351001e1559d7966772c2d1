@@ -1,0 +1,28 @@
+package customer;
+
+public class Customers {
+	protected int customerId;
+	protected String customerName;
+	protected String customerGrade;
+	int bonusPoint;
+	double bonusRatio;
+	
+	public Customers() {
+		customerGrade= "SILVER";
+		bonusRatio= 0.01;
+	}
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+	public int getCustomerId() {
+		return customerId;
+	}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+	public String getCustomerName() {
+		return customerName;
+	}
+
+	
+}

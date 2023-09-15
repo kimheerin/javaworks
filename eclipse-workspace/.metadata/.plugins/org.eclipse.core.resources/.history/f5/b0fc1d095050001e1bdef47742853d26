@@ -1,0 +1,22 @@
+package classes.methods;
+
+public class CalculatorTest {
+
+	public static void main(String[] args) {
+		// 정수형 Calculator 객체 생성
+		Calculator calc = new Calculator();
+		int num1 = 10, num2 = 2;
+		
+		//int add = calc.add(10, 11);	//변수 사용
+		int addVal = calc.add(num1, num2);	//출력을 위해 변수 생성
+		int subVal = calc.add(num1, num2);	
+		int mulVal = calc.add(num1, num2);	
+		
+		System.out.println("total(+) : " + addVal);
+		System.out.println("total(-) : " + subVal);
+		System.out.println("total(x) : " + mulVal);
+		
+
+	}
+
+}

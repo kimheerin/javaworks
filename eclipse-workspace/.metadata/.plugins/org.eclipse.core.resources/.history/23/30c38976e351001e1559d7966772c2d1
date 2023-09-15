@@ -1,0 +1,15 @@
+package basicclass;
+
+public class EqualsTest {
+
+	public static void main(String[] args) {
+		String name1 = new String("김희린");
+		String name2 = new String("김희린");
+		//인스턴스의 메모리 주소 비교
+		//System.out.println(name1); //문자열로 재정의되어 있어 주소 미출력
+		System.out.println(System.identityHashCode(name1));	//identiyHashCode 사용
+		System.out.println(System.identityHashCode(name2));	//identiyHashCode 사용
+
+	}
+
+}

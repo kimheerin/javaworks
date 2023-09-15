@@ -1,0 +1,23 @@
+package customer;
+
+public class VipCustomers extends Customers {
+	private int agId;
+	double saleRatio; 
+	
+	public VipCustomers() {
+		customerGrade = "VIP";
+		saleRatio = 0.1;
+		bonusRatio = 0.05;
+	}
+	
+	public void setagId(int agId) {
+		this.agId = agId;
+	}
+
+	@Override
+	public String showCustomerInfo() {
+		return customerName + "의 등급 " + customerGrade + ", " +
+				"보너스 포인트 : " + bonusPoint;
+	}
+	
+}

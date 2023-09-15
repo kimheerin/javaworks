@@ -1,0 +1,12 @@
+package inheritance.person;
+
+public class PersonTest {
+
+	public static void main(String[] args) {
+		//Engineer에서 상속했으므로, Person에 필드를 사용할 수 있음
+		Engineer lee = new Engineer("이효리", 40, 111);
+
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package customer;
+
+public class VipCustomers extends Customers {
+	private int agId;
+	double saleRatio; 
+	
+	public VipCustomers() {
+		customerGrade = "VIP";
+		saleRatio = 0.1;
+		bonusRatio = 0.05;
+	}
+	
+	public void setagId(int agId) {
+		this.agId = agId;
+	}
+	
+}

@@ -1,0 +1,13 @@
+package thisssamples;
+
+public class Birthday {
+	int day;
+	int month;
+	int year;
+	
+	public void setyear(int year) {
+		this.year = year;
+		
+	}
+
+}

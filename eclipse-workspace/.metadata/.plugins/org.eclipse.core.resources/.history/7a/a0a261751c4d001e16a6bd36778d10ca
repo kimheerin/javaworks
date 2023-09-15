@@ -1,0 +1,21 @@
+package swtichexample;
+
+public class SwitchCaseTest {
+
+	public static void main(String[] args) {
+		// 랭킹에 따른 메달 출력
+		// 1 - 금메달, 2 - 은메달, 3 - 동메달
+		// 변수 - rank
+		
+		int rank = 1;
+		
+		switch(rank) {
+		case 1:
+			System.out.println("금메달입니다.");
+			break;
+			
+		}
+
+	}
+
+}

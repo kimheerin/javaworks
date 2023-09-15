@@ -1,0 +1,11 @@
+package inheritance.person;
+
+public class Person {
+	//1.필드
+	String name;
+	int age;
+	
+	
+	
+
+}
