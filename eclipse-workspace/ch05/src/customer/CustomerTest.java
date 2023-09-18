@@ -4,7 +4,7 @@ public class CustomerTest {
 
 	public static void main(String[] args) {
 			// 일반 고객 1명, VIP 고객 1명 객체 생성 | 매개변수가 없는
-			Customers lee = new Customers();
+			Customer lee = new Customer();
 			//입력
 			lee.setCustomerId(1001);
 			lee.setCustomerName("이효리");
@@ -17,7 +17,7 @@ public class CustomerTest {
 			
 			System.out.println("=====================");
 		
-			VipCustomers ha = new VipCustomers();
+			VipCustomer ha = new VipCustomer();
 			ha.setCustomerId(1002);
 			ha.setCustomerName("하동훈");
 			ha.setagId(777);
