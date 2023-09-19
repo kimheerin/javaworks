@@ -46,4 +46,12 @@
     <fullyQualifiedTypeName name="singleton.student.School"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="polymorphism.animals2.AnimalTest"/>
+    <fullyQualifiedTypeName name="polymorphism.animals2.Eagle"/>
+    <fullyQualifiedTypeName name="objectequals.Employee"/>
+    <fullyQualifiedTypeName name="polymorphism.animals2.Animal"/>
+    <fullyQualifiedTypeName name="objectequals.member.Member"/>
+    <fullyQualifiedTypeName name="customer.Customers"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="chapter9.step1.AutoCar"/>
 </qualifiedTypeNameHistroy>

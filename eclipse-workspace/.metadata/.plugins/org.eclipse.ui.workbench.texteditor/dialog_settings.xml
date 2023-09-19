@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="equals"/>
+		<item key="selection" value="Price"/>
 		<list key="findhistory">
+			<item value="price"/>
 			<item value="equals"/>
 			<item value="eqalus"/>
 			<item value="toString"/>
