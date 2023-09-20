@@ -1,10 +1,10 @@
 package interfaceCalculator.remocon;
 
-public class RemoconControlTest {
+public class RemoteControlTest {
 
 	public static void main(String[] args) {
 		//인터페이스형 부모 타입으로 객체 생성 - 자동 형변환
-		RemoconControl rcTv = new Television();
+		RemoteControl rcTv = new Television();
 		
 		rcTv.turnOn();
 		rcTv.setVolume(-11);
@@ -13,7 +13,7 @@ public class RemoconControlTest {
 		rcTv.turnOff();
 		
 		//건전지 교체
-		RemoconControl.ChangeBattery();
+		RemoteControl.ChangeBattery();
 
 	}
 

@@ -13,27 +13,32 @@ public class BankMain2 {
 		
 		
 		while(sw) {
-			System.out.println("================================================");
-			System.out.println("1. 계좌 생성 | 2. 계좌 목록 | 3. 예금 | 4. 출금 | 5. 종료");
-			System.out.println("================================================");
-			System.out.print("선택 >>>>> ");
-		
-			//메뉴 선택
-			int selecNo = Integer.parseInt(scan.nextLine()); 	//그냥 scan.nextLine 쓰면 오류남
+			try {
+				System.out.println("================================================");
+				System.out.println("1. 계좌 생성 | 2. 계좌 목록 | 3. 예금 | 4. 출금 | 5. 종료");
+				System.out.println("================================================");
+				System.out.print("선택 >>>>> ");
 			
-			if(selecNo == 1) {
-				creatAccount();			//계좌 생성
-			}else if(selecNo == 2) {
-				getAccountList();		//계좌 목록
-			}else if(selecNo == 3) {
-				deposit();				//예금
-			}else if(selecNo == 4) {
-				withdraw();			//출금
-			}else if(selecNo == 5) {
-				sw = false;				//종료
-			}else {
-				System.out.println("지원하지 않는 기능입니다. 다시 입력해 주세요.");
-			}
+				//메뉴 선택
+				int selecNo = Integer.parseInt(scan.nextLine()); 	//그냥 scan.nextLine 쓰면 오류남
+				
+				if(selecNo == 1) {
+					creatAccount();			//계좌 생성
+				}else if(selecNo == 2) {
+					getAccountList();		//계좌 목록
+				}else if(selecNo == 3) {
+					deposit();				//예금
+				}else if(selecNo == 4) {
+					withdraw();			//출금
+				}else if(selecNo == 5) {
+					sw = false;				//종료
+				}else {
+					System.out.println("지원하지 않는 기능입니다. 다시 입력해 주세요.");
+					
+				}
+				}catch(NumberFormatException e) {
+					System.out.println("숫자를 선택해 주세요.");
+				}
 		}//while
 		System.out.println("프로그램을 종료합니다.");
 		scan.close();

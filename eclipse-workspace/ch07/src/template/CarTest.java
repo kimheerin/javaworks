@@ -13,6 +13,15 @@ public class CarTest {
 		
 		Car myCar = new AICar();
 		myCar.run();
+		
+		/*final 클래스 테스트
+		String msg = "좋은 하루 보내세요.";
+		System.out.println(msg);
+		
+		Integer num = 100;
+		System.out.println(num);*/
+		
+		
 
 	}
 }

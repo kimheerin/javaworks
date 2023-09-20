@@ -1,6 +1,6 @@
 package interfaceCalculator.remocon;
 
-public class Television implements RemoconControl {
+public class Television implements RemoteControl {
 	
 	//필드
 	private int volume;
@@ -16,10 +16,10 @@ public class Television implements RemoconControl {
 	@Override
 	public void setVolume (int volume) {
 		//volume 0~10 설정
-		if(volume > RemoconControl.MAX_VOLUME) {
-			this.volume = RemoconControl.MAX_VOLUME;
-		}else if(volume < RemoconControl.MAX_VOLUME){
-			this.volume = RemoconControl.MIN_VOLUME;
+		if(volume > RemoteControl.MAX_VOLUME) {
+			this.volume = RemoteControl.MAX_VOLUME;
+		}else if(volume < RemoteControl.MAX_VOLUME){
+			this.volume = RemoteControl.MIN_VOLUME;
 		}else {
 			this.volume = volume;
 		}

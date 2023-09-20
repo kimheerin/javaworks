@@ -1,8 +1,8 @@
 package interfaceCalculator.remocon;
 //부모
-public interface RemoconControl {
+public interface RemoteControl {
 	
-	//인터페이스 함수
+	//인터페이스 상수
 	public int MAX_VOLUME = 10;
 	public int MIN_VOLUME = 10;
 	
