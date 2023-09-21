@@ -24,11 +24,21 @@ public class ButtonTest {
 		button.setListener(new MassageListener());		//이렇게 가능
 		button.touch();
 		
-		//사진 찍기 구현
+		//사진 찍기 구현		//클래스 따로 만들지 않고 바로
 		button.setListener(new Button.OnClickListener() {
 			@Override
 			public void OnClick() {
 				System.out.println("사진을 찍습니다.");
+			}
+		});
+		button.touch();
+		
+		//쇼핑 - 구매하기 구현	//클래스 따로 만들지 않고 바로
+		button.setListener(new Button.OnClickListener() {
+			
+			@Override
+			public void OnClick() {
+				System.out.println("상품을 구매합니다.");
 			}
 		});
 		button.touch();

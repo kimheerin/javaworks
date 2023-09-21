@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.security.PublicKey"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="dates.LocalDateTimeTest0908"/>
-    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
-    <fullyQualifiedTypeName name="javax.print.attribute.standard.DateTimeAtCompleted"/>
-    <fullyQualifiedTypeName name="java.time.LocalTime"/>
-    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="classes.methods.Calculator"/>
-    <fullyQualifiedTypeName name="classes.constructor.NumberSample"/>
-    <fullyQualifiedTypeName name="hiding.acoounts.Account"/>
-    <fullyQualifiedTypeName name="hiding.accounts.Account"/>
-    <fullyQualifiedTypeName name="thisssamples.Birthday"/>
-    <fullyQualifiedTypeName name="referance.circle.PointTest"/>
-    <fullyQualifiedTypeName name="java.awt.Point"/>
-    <fullyQualifiedTypeName name="referance.circle.point"/>
     <fullyQualifiedTypeName name="referance.circle.Circle"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
@@ -32,11 +15,9 @@
     <fullyQualifiedTypeName name="polymorphism.fruit.Banana"/>
     <fullyQualifiedTypeName name="polymorphism.fruit.Pitch"/>
     <fullyQualifiedTypeName name="polymorphism.fruit.Fruit"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="banking.array.Account"/>
     <fullyQualifiedTypeName name="kr.or.iei.model.User"/>
     <fullyQualifiedTypeName name="dates.CalendarTest2"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="singleton.Company"/>
@@ -44,7 +25,6 @@
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
     <fullyQualifiedTypeName name="singleton.student.Student"/>
     <fullyQualifiedTypeName name="singleton.student.School"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="polymorphism.animals2.AnimalTest"/>
     <fullyQualifiedTypeName name="polymorphism.animals2.Eagle"/>
@@ -54,4 +34,30 @@
     <fullyQualifiedTypeName name="customer.Customers"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="chapter9.step1.AutoCar"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="constant.Define"/>
+    <fullyQualifiedTypeName name="constant.enums.Season"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="abstracts.player.PlayerLevel"/>
+    <fullyQualifiedTypeName name="abstracts.player.AdvancedLevel"/>
+    <fullyQualifiedTypeName name="abstracts.player.Beginner"/>
+    <fullyQualifiedTypeName name="interfaceCalculator.remocon2.searchable"/>
+    <fullyQualifiedTypeName name="interfaceCalculator.remocon.RemoteControl"/>
+    <fullyQualifiedTypeName name="interfaceCalculator.inheritance.MyInterface"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="nestedclass.A.B"/>
+    <fullyQualifiedTypeName name="nestedclass.A"/>
+    <fullyQualifiedTypeName name="nestedclass.A.C"/>
+    <fullyQualifiedTypeName name="MyRunnable"/>
+    <fullyQualifiedTypeName name="java.awt.image.BufferedImageOp"/>
+    <fullyQualifiedTypeName name="nestedclass.interfaces.Button"/>
+    <fullyQualifiedTypeName name="nestedclass.interfaces.CallListener"/>
+    <fullyQualifiedTypeName name="nestedclass.interfaces.MassageListener"/>
+    <fullyQualifiedTypeName name="nestedclass.interfaces.Button.OnClickListener"/>
 </qualifiedTypeNameHistroy>

@@ -1,9 +1,0 @@
-package basicclass;
-
-public class Book {
-	int bookNum;		//책 번호
-	String bookTitle;	//책 이름
-	
-	
-
-}
