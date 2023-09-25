@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="referance.circle.Circle"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
-    <fullyQualifiedTypeName name="referance.subjects.Subject"/>
-    <fullyQualifiedTypeName name="transport.Subway"/>
-    <fullyQualifiedTypeName name="inheritance.airplane.SuperAirPlane"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="inheritance.q4.Employee"/>
     <fullyQualifiedTypeName name="protectedex.park1.A"/>
@@ -32,9 +25,7 @@
     <fullyQualifiedTypeName name="polymorphism.animals2.Animal"/>
     <fullyQualifiedTypeName name="objectequals.member.Member"/>
     <fullyQualifiedTypeName name="customer.Customers"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="chapter9.step1.AutoCar"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="constant.Define"/>
     <fullyQualifiedTypeName name="constant.enums.Season"/>
@@ -60,4 +51,13 @@
     <fullyQualifiedTypeName name="nestedclass.interfaces.CallListener"/>
     <fullyQualifiedTypeName name="nestedclass.interfaces.MassageListener"/>
     <fullyQualifiedTypeName name="nestedclass.interfaces.Button.OnClickListener"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="streams.Customer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
 </qualifiedTypeNameHistroy>
