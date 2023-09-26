@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="singleton.Company"/>
-    <fullyQualifiedTypeName name="singleton.car.CarFactory"/>
-    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
-    <fullyQualifiedTypeName name="singleton.student.Student"/>
-    <fullyQualifiedTypeName name="singleton.student.School"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="polymorphism.animals2.AnimalTest"/>
-    <fullyQualifiedTypeName name="polymorphism.animals2.Eagle"/>
-    <fullyQualifiedTypeName name="objectequals.Employee"/>
-    <fullyQualifiedTypeName name="polymorphism.animals2.Animal"/>
     <fullyQualifiedTypeName name="objectequals.member.Member"/>
     <fullyQualifiedTypeName name="customer.Customers"/>
     <fullyQualifiedTypeName name="chapter9.step1.AutoCar"/>
@@ -45,7 +33,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
-    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="threads.join.SumThread"/>
@@ -56,8 +43,21 @@
     <fullyQualifiedTypeName name="funcinterface.calculator.Calculator"/>
     <fullyQualifiedTypeName name="threads.synchronize.Calculator"/>
     <fullyQualifiedTypeName name="java.awt.im.InputContext"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.awt.Toolkit"/>
+    <fullyQualifiedTypeName name="threads.synchronize.WorkObject"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.Reader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+    <fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.DataInputStream"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="serialization.ObjectInOutStreamTest"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+    <fullyQualifiedTypeName name="collection.carmap.CarFactory"/>
 </qualifiedTypeNameHistroy>

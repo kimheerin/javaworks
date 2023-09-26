@@ -11,7 +11,6 @@ public class BankMain2 {
 	public static void main(String[] args) {
 		boolean sw = true;
 		
-		
 		while(sw) {
 			try {
 				System.out.println("================================================");
