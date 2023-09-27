@@ -1,0 +1,1 @@
+ant bear chiken cow eagle elephant horse monkey penguin tiger

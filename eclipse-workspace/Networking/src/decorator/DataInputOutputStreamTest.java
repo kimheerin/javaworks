@@ -30,7 +30,7 @@ public class DataInputOutputStreamTest {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			// TODO Auto-generated catch block9
 			e.printStackTrace();
 		}
 		//바이트 데이터 읽기

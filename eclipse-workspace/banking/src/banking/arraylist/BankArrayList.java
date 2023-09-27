@@ -3,6 +3,7 @@ package banking.arraylist;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 import banking.array.Account;
 
@@ -51,23 +52,31 @@ public class BankArrayList {
 		System.out.println("------------------------------------------------");
 		
 		while(true) {
-			System.out.print("계좌번호 : ");
+			System.out.print("계좌번호(##-##-###) : ");
 			String ano = sc.nextLine();
-			//중복 계좌가 있는지 확인
-			if(findAccount(ano) != null) {	//중복 계좌가 있으면
-				System.out.println("중복 계좌입니다. 다시 입력해 주세요.");
-			}else {	//중복 계좌가 없으면
-				System.out.print("예금주 : ");
-				String owner = sc.nextLine();
-				
-				System.out.print("초기 입금액 : ");
-				int balance = Integer.parseInt(sc.nextLine());
-				
-				//입력한 내용을 매개변수로 계좌 생성
-				Account newAccount = new Account(ano, owner, balance);
-				accountList.add(newAccount);	//리스트에 저장
-				System.out.println("계좌가 생성되었습니다.");
-				break;
+			
+			String regExp = "\\d{2}-\\d{2}-\\d{3}";
+			boolean result = Pattern.matches(regExp, ano);
+			
+			if(result) {
+				//중복 계좌가 있는지 확인
+				if(findAccount(ano) != null) {	//중복 계좌가 있으면
+					System.out.println("중복 계좌입니다. 다시 입력해 주세요.");
+				}else {	//중복 계좌가 없으면
+					System.out.print("예금주 : ");
+					String owner = sc.nextLine();
+					
+					System.out.print("초기 입금액 : ");
+					int balance = Integer.parseInt(sc.nextLine());
+					
+					//입력한 내용을 매개변수로 계좌 생성
+					Account newAccount = new Account(ano, owner, balance);
+					accountList.add(newAccount);	//리스트에 저장
+					System.out.println("계좌가 생성되었습니다.");
+					break;
+				}
+			}else {
+				System.out.println("올바른 형식이 아닙니다. 다시 입력해 주세요.");
 			}
 		}//while
 	}//creatAccount
