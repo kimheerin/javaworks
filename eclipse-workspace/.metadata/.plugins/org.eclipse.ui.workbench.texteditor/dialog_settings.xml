@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="boolean"/>
+		<item key="selection" value="switch"/>
 		<list key="findhistory">
+			<item value="switch"/>
+			<item value="thered.start"/>
 			<item value="boolean"/>
 			<item value="text"/>
 			<item value="mathod"/>

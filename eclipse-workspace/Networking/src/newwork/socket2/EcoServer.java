@@ -8,6 +8,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
+//TCP 네트워킹
 public class EcoServer {
 
 	private static ServerSocket serverSocket;
@@ -36,7 +37,7 @@ public class EcoServer {
 			@Override
 			public void run() {
 				try {
-					serverSocket = new ServerSocket(50001);
+					serverSocket = new ServerSocket(8001);
 					System.out.println("[서버]가 시작됨");
 					
 					while(true) {

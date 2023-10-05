@@ -9,7 +9,7 @@ public class SumThreadTest {
 		sumThread.start();
 		
 		try {
-			sumThread.join();
+			sumThread.join();	//참여하면서 run()을 실행함
 		}catch (InterruptedException e) {
 			e.printStackTrace();
 		}
