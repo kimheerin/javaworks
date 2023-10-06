@@ -17,30 +17,36 @@ public class BankArrayList {
 				
 		while(sw) {
 			try {
-				System.out.println("================================================");
-				System.out.println("1. 계좌 생성 | 2. 계좌 목록 | 3. 예금 | 4. 출금 | 5. 종료");
-				System.out.println("================================================");
+				System.out.println("=========================================================================");
+				System.out.println("1. 계좌 생성 | 2. 계좌 목록 | 3. 예금 | 4. 출금 | 5. 계좌 삭제 | 6. 계좌 검색 | 7. 종료");
+				System.out.println("=========================================================================");
 				System.out.print("선택 >>>>> ");
 			
-				//메뉴 선택
-				int selecNo = Integer.parseInt(sc.nextLine()); 	//그냥 sc.nextLine 쓰면 오류남
-				
-				if(selecNo == 1) {
-					creatAccount();			//계좌 생성
-				}else if(selecNo == 2) {
-					getAccountList();		//계좌 목록
-				}else if(selecNo == 3) {
-					deposit();				//예금
-				}else if(selecNo == 4) {
-					withdraw();			//출금
-				}else if(selecNo == 5) {
-					sw = false;				//종료
-				}else {
-					System.out.println("지원하지 않는 기능입니다. 다시 입력해 주세요.");
-				}
-			}catch(NumberFormatException e) {
-					System.out.println("숫자를 선택해 주세요.");
-			}//try
+				//메뉴선택
+	            int selectNo = Integer.parseInt(sc.nextLine());
+	            //int selectNo = scanner.nextInt(); 이거는 확확 넘어가서 사용하기 힘듬
+	            
+	            if(selectNo ==1) {
+	               creatAccount();     //계좌 생성
+	            }else if(selectNo ==2) {
+	               getAccountList();   // 계좌 목록
+	            }else if(selectNo ==3) {
+	               deposit();  			 // 예금
+	            }else if(selectNo ==4) {
+	               withdraw();   		 // 출금
+	            }else if(selectNo ==5) {
+	               removeAccount();  	 //계좌삭제
+	            }else if(selectNo ==6) {
+		           selectAccount();   	 //계좌 검색   
+	            }else if(selectNo ==7) {
+	               sw =false;     		 //종료
+	            }else{
+	               System.out.println("지원하지 않는 기능입니다.");
+	            }
+	            }catch(NumberFormatException e){
+	               //e.printStackTrace();
+	               System.out.println("올바른 숫자를 선택해주세요");               
+	            }
 		}//while
 		System.out.println("프로그램을 종료합니다.");
 		sc.close();
@@ -149,6 +155,61 @@ public class BankArrayList {
 		}//while
 	}//withdraw	
 	
+	//계좌 삭제
+	  private static void removeAccount() {
+	      
+		System.out.println("------------------------------------------------");
+		System.out.print("\t\t   삭    제\n");
+		System.out.println("------------------------------------------------");
+	      
+	      while(true) {
+	         System.out.print("계좌 번호 : ");
+	         String ano = sc.nextLine();
+	         
+	         if(findAccount(ano) !=null) { // 찾는 계좌가 없으면 
+	            for(int i = 0 ; i <accountList.size();i++) {               
+	               String dbAno = accountList.get(i).getAno();
+	               if(dbAno.equals(ano)) {
+	                  accountList.remove(i); //계좌 삭제
+	                  System.out.println("결과 : 계좌가 삭제되었습니다.");
+	                  break;
+	               }               
+	            }//for 끝
+	            break;
+	         }else{            
+	            System.out.println("계좌가 존재하지 않습니다. 다시 입력해주세요");
+	         }         
+	      }//whlie 끝
+	   }
+	private static void selectAccount() {
+		
+		System.out.println("------------------------------------------------");
+		System.out.print("\t\t   검    색\n");
+		System.out.println("------------------------------------------------");
+		
+		while(true) {
+	         System.out.print("계좌 번호 조회 : ");
+	         String ano = sc.nextLine();
+	         
+	         if(findAccount(ano) !=null) { // 찾는 계좌가 없으면 
+		            for(int i = 0 ; i <accountList.size();i++) {               
+		               String dbAno = accountList.get(i).getAno();
+		               if(dbAno.equals(ano)) {
+		            	  Account account = accountList.get(i);
+		            	  //검색한 계좌 출력
+		            	  System.out.println("-- 조회 결과 --");
+		                  System.out.println("계좌 번호 : " + account.getAno());
+		                  System.out.println("예금주 : " + account.getowner());
+		                  System.out.println("잔 액 : " + account.getbalance());
+		                  break;
+		               }               
+		            }//for 끝
+		            break;
+		         }else{            
+		            System.out.println("계좌가 존재하지 않습니다. 다시 입력해주세요");
+		         }         
+		     }//whlie 끝
+	}
 	private static Account findAccount(String ano) {
 		Account account = null;
 		for(int i=0; i<accountList.size(); i++) {
