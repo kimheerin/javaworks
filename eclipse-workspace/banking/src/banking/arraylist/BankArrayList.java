@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import banking.array.Account;
+import banking.domain.Account;
 
 public class BankArrayList {
 	//통장 계좌를 저장할 자료 구조 객체 생성
@@ -68,21 +68,31 @@ public class BankArrayList {
 				//중복 계좌가 있는지 확인
 				if(findAccount(ano) != null) {	//중복 계좌가 있으면
 					System.out.println("중복 계좌입니다. 다시 입력해 주세요.");
+			
 				}else {	//중복 계좌가 없으면
-					System.out.print("예금주 : ");
-					String owner = sc.nextLine();
-					
-					System.out.print("초기 입금액 : ");
-					int balance = Integer.parseInt(sc.nextLine());
-					
-					//입력한 내용을 매개변수로 계좌 생성
-					Account newAccount = new Account(ano, owner, balance);
-					accountList.add(newAccount);	//리스트에 저장
-					System.out.println("계좌가 생성되었습니다.");
+					while(true) {
+						System.out.print("예금주 : ");
+						String owner = sc.nextLine();
+						
+						regExp = "[a-zA-Z가-힣]+";	//영어 및 한글만
+						result = Pattern.matches(regExp, owner);
+						if(result) {
+							System.out.print("초기 입금액 : ");
+							int balance = Integer.parseInt(sc.nextLine());
+							
+							//입력한 내용을 매개변수로 계좌 생성
+							Account newAccount = new Account(ano, owner, balance);
+							accountList.add(newAccount);	//리스트에 저장
+							System.out.println("계좌가 생성되었습니다.");
+							break;	
+						}else {
+							System.out.println("[예금주] 한글 및 영문으로 입력해 주세요.");
+						}
+					}
 					break;
 				}
 			}else {
-				System.out.println("올바른 형식이 아닙니다. 다시 입력해 주세요.");
+				System.out.println("[예금주] 올바른 형식이 아닙니다. 다시 입력해 주세요.");
 			}
 		}//while
 	}//creatAccount
@@ -92,13 +102,13 @@ public class BankArrayList {
 		System.out.println("\t\t계좌 목록 조회");
 		System.out.println("------------------------------------------------");
 		
+		//계좌 목록 조회
 		for(int i=0; i<accountList.size(); i++) {
 			Account account = (accountList.get(i)); 
 				System.out.print("계좌 번호 : " + account.getAno() + "\t");
 				System.out.print("예금주 : " + account.getowner() + "\t");
 				System.out.println("잔고 : " + account.getbalance() + "\t");
 		}
-
 	}
 	private static void deposit() {
 		System.out.println("------------------------------------------------");
@@ -116,7 +126,7 @@ public class BankArrayList {
 				int money = Integer.parseInt(sc.nextLine());
 			
 				account.setbalance(account.getbalance() + money); 
-				System.out.println("정상적으로 입금되었습니다!");
+				System.out.println("정상적으로 입금되었습니다.");
 				break;
 			}else {
 				System.out.println("계좌가 존재하지 않습니다.");
@@ -143,7 +153,7 @@ public class BankArrayList {
 						System.out.println("잔액이 부족합니다. 다시 입력해 주세요.");
 					}else {
 					account.setbalance(account.getbalance() - money); 	
-					System.out.println("정상적으로 출금되었습니다!");
+					System.out.println("정상적으로 출금되었습니다.");
 					break;
 					}
 				}
@@ -171,13 +181,13 @@ public class BankArrayList {
 	               String dbAno = accountList.get(i).getAno();
 	               if(dbAno.equals(ano)) {
 	                  accountList.remove(i); //계좌 삭제
-	                  System.out.println("결과 : 계좌가 삭제되었습니다.");
+	                  System.out.println("계좌가 삭제되었습니다.");
 	                  break;
 	               }               
 	            }//for 끝
 	            break;
 	         }else{            
-	            System.out.println("계좌가 존재하지 않습니다. 다시 입력해주세요");
+	            System.out.println("계좌가 존재하지 않습니다. 다시 입력해 주세요.");
 	         }         
 	      }//whlie 끝
 	   }
@@ -206,7 +216,7 @@ public class BankArrayList {
 		            }//for 끝
 		            break;
 		         }else{            
-		            System.out.println("계좌가 존재하지 않습니다. 다시 입력해주세요");
+		            System.out.println("계좌가 존재하지 않습니다. 다시 입력해 주세요.");
 		         }         
 		     }//whlie 끝
 	}
@@ -223,5 +233,4 @@ public class BankArrayList {
 		}	
 		return account;
 	}
-
 }//class

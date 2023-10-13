@@ -1,5 +1,6 @@
 package dbcrud;
 
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.sql.Blob;
 import java.sql.Connection;
@@ -31,18 +32,18 @@ public class BoardInserTest {
 			pstmt = conn.prepareStatement(sql);
 			
 			//? 값 지정
-			pstmt.setString(1, "notebook2");
-			pstmt.setString(2, "LG gram notebook2");
-			pstmt.setString(3, "choieunho123");
+			pstmt.setString(1, "iphone16");
+			pstmt.setString(2, "다시 저장");
+			pstmt.setString(3, "save");
 			
 			//사진 첨부한 경우
-			/*pstmt.setString(4, "notebook.PNG");	
-			pstmt.setBlob(5, new FileInputStream("src/dbcrud/notebook.PNG"));*/
+			pstmt.setString(4, "iphone5.PNG");	
+			pstmt.setBlob(5, new FileInputStream("src/dbcrud/iphone5.PNG"));
 			
 			//사진 미첨부 경우
-			pstmt.setString(4, null);
+			/*pstmt.setString(4, null);
 			Blob blob = null;
-			pstmt.setBlob(5, blob);
+			pstmt.setBlob(5, blob);*/
 			
 			//SQL 실행
 			int rows = pstmt.executeUpdate();
@@ -51,8 +52,8 @@ public class BoardInserTest {
 			e.printStackTrace();
 		}catch (SQLException e) {	
 			e.printStackTrace();
-		/*} catch (FileNotFoundException e) {
-			e.printStackTrace();*/
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
 		}finally {
 			if(conn != null) {	//연결되어 있다면
 				try {
