@@ -28,7 +28,7 @@ public class Main {
 	            }else if(selectNo ==2) {
 	               dao.getAccountList();   // 계좌 목록
 	            }else if(selectNo ==3) {
-	               dao.deposit();  			 // 예금
+	               dao.deposit(); 			// 예금
 	            }else if(selectNo ==4) {
 	               dao.withdraw();   		// 출금
 	            }else if(selectNo ==5) {

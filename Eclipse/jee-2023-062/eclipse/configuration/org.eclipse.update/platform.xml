@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1694140498957" transient="false">
+<config date="1697605063566" transient="false">
 	<site updateable="true" url="file:/C:/Users/user1/.p2/pool/" enabled="true" policy="MANAGED-ONLY">
 		<feature id="org.eclipse.emf.common.ui" version="2.20.0.v20230211-1150" url="features/org.eclipse.emf.common.ui_2.20.0.v20230211-1150/">
 		</feature>
@@ -69,6 +69,8 @@
 		</feature>
 		<feature id="org.eclipse.datatools.sqldevtools.ddl.feature" version="1.15.0.202305310959" url="features/org.eclipse.datatools.sqldevtools.ddl.feature_1.15.0.202305310959/">
 		</feature>
+		<feature id="org.eclipse.emf.codegen.ecore.ui" version="2.35.0.v20230622-1149" url="features/org.eclipse.emf.codegen.ecore.ui_2.35.0.v20230622-1149/">
+		</feature>
 		<feature id="org.eclipse.mylyn.commons.repositories.http" version="3.26.1.v20230604-1755" url="features/org.eclipse.mylyn.commons.repositories.http_3.26.1.v20230604-1755/" plugin-identifier="org.eclipse.mylyn.commons.core">
 		</feature>
 		<feature id="org.eclipse.datatools.enablement.sqlite.feature" version="1.15.0.202305310959" url="features/org.eclipse.datatools.enablement.sqlite.feature_1.15.0.202305310959/" plugin-identifier="org.eclipse.datatools.enablement.finfo">
@@ -76,6 +78,8 @@
 		<feature id="org.eclipse.datatools.sqldevtools.sqlbuilder.feature" version="1.15.0.202305310959" url="features/org.eclipse.datatools.sqldevtools.sqlbuilder.feature_1.15.0.202305310959/">
 		</feature>
 		<feature id="org.eclipse.epp.package.jee.feature" version="4.28.0.20230608-1200" url="features/org.eclipse.epp.package.jee.feature_4.28.0.20230608-1200/" plugin-identifier="org.eclipse.epp.package.jee">
+		</feature>
+		<feature id="org.eclipse.gef" version="3.17.0.202308311129" url="features/org.eclipse.gef_3.17.0.202308311129/">
 		</feature>
 		<feature id="org.eclipse.emf.mapping" version="2.15.0.v20230211-1150" url="features/org.eclipse.emf.mapping_2.15.0.v20230211-1150/">
 		</feature>
@@ -121,6 +125,8 @@
 		</feature>
 		<feature id="org.springsource.ide.eclipse.commons.quicksearch.feature" version="3.9.11.201912160745-RELEASE" url="features/org.springsource.ide.eclipse.commons.quicksearch.feature_3.9.11.201912160745-RELEASE/">
 		</feature>
+		<feature id="org.eclipse.emf.codegen.ecore" version="2.35.0.v20230801-1141" url="features/org.eclipse.emf.codegen.ecore_2.35.0.v20230801-1141/">
+		</feature>
 		<feature id="org.eclipse.datatools.sqltools.doc.user" version="1.15.0.202305310959" url="features/org.eclipse.datatools.sqltools.doc.user_1.15.0.202305310959/">
 		</feature>
 		<feature id="org.eclipse.datatools.enablement.msft.feature" version="1.15.0.202305310959" url="features/org.eclipse.datatools.enablement.msft.feature_1.15.0.202305310959/" plugin-identifier="org.eclipse.datatools.enablement.finfo">
@@ -137,10 +143,6 @@
 		</feature>
 		<feature id="org.eclipse.mylyn.versions" version="3.26.1.v20230604-1755" url="features/org.eclipse.mylyn.versions_3.26.1.v20230604-1755/" plugin-identifier="org.eclipse.mylyn.versions.core">
 		</feature>
-		<feature id="org.eclipse.emf.ecore" version="2.32.0.v20230406-1203" url="features/org.eclipse.emf.ecore_2.32.0.v20230406-1203/">
-		</feature>
-		<feature id="org.eclipse.draw2d" version="3.16.0.202306071707" url="features/org.eclipse.draw2d_3.16.0.202306071707/">
-		</feature>
 		<feature id="org.eclipse.emf.converter" version="2.19.0.v20230211-1150" url="features/org.eclipse.emf.converter_2.19.0.v20230211-1150/">
 		</feature>
 		<feature id="org.eclipse.epp.mpc" version="1.10.1.v20221110-1841" url="features/org.eclipse.epp.mpc_1.10.1.v20221110-1841/" plugin-identifier="org.eclipse.epp.mpc.ui">
@@ -154,6 +156,8 @@
 		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.4.2000.v20230510-1208" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.2000.v20230510-1208/">
 		</feature>
 		<feature id="com.github.eclipsecolortheme.feature" version="1.0.0.201410260308" url="features/com.github.eclipsecolortheme.feature_1.0.0.201410260308/">
+		</feature>
+		<feature id="com.tomato.exerd.feature" version="2.5.17.20220110-1118" url="features/com.tomato.exerd.feature_2.5.17.20220110-1118/" plugin-identifier="com.tomato.exerd.core">
 		</feature>
 		<feature id="org.eclipse.datatools.sdk.feature" version="1.15.0.202305310959" url="features/org.eclipse.datatools.sdk.feature_1.15.0.202305310959/" plugin-identifier="org.eclipse.datatools.sdk">
 		</feature>
@@ -243,9 +247,9 @@
 		</feature>
 		<feature id="org.eclipse.mylyn.commons.identity" version="3.26.1.v20230604-1755" url="features/org.eclipse.mylyn.commons.identity_3.26.1.v20230604-1755/" plugin-identifier="org.eclipse.mylyn.commons.core">
 		</feature>
-		<feature id="org.eclipse.jst.web_userdoc.feature" version="3.6.1.v201908261515" url="features/org.eclipse.jst.web_userdoc.feature_3.6.1.v201908261515/">
+		<feature id="org.eclipse.emf.common" version="2.30.0.v20230810-0713" url="features/org.eclipse.emf.common_2.30.0.v20230810-0713/">
 		</feature>
-		<feature id="org.eclipse.emf.codegen.ecore" version="2.34.0.v20230406-1334" url="features/org.eclipse.emf.codegen.ecore_2.34.0.v20230406-1334/">
+		<feature id="org.eclipse.jst.web_userdoc.feature" version="3.6.1.v201908261515" url="features/org.eclipse.jst.web_userdoc.feature_3.6.1.v201908261515/">
 		</feature>
 		<feature id="org.eclipse.m2e.feature" version="2.3.0.20230523-2033" url="features/org.eclipse.m2e.feature_2.3.0.20230523-2033/" plugin-identifier="org.eclipse.m2e.core">
 		</feature>
@@ -262,6 +266,8 @@
 		<feature id="org.eclipse.jpt.jaxb.eclipselink.feature" version="1.4.203.v202104080213" url="features/org.eclipse.jpt.jaxb.eclipselink.feature_1.4.203.v202104080213/" plugin-identifier="org.eclipse.jpt.jaxb.eclipselink.branding">
 		</feature>
 		<feature id="org.eclipse.mylyn.commons.repositories" version="3.26.1.v20230604-1755" url="features/org.eclipse.mylyn.commons.repositories_3.26.1.v20230604-1755/" plugin-identifier="org.eclipse.mylyn.commons.core">
+		</feature>
+		<feature id="org.eclipse.draw2d" version="3.17.0.202308311129" url="features/org.eclipse.draw2d_3.17.0.202308311129/">
 		</feature>
 		<feature id="org.eclipse.mylyn.builds" version="3.26.1.v20230604-1755" url="features/org.eclipse.mylyn.builds_3.26.1.v20230604-1755/" plugin-identifier="org.eclipse.mylyn.builds.core">
 		</feature>
@@ -295,13 +301,13 @@
 		</feature>
 		<feature id="org.eclipse.justj.openjdk.hotspot.jre.full" version="17.0.8.v20230831-1047" url="features/org.eclipse.justj.openjdk.hotspot.jre.full_17.0.8.v20230831-1047/">
 		</feature>
+		<feature id="org.eclipse.emf" version="2.35.0.v20230829-0934" url="features/org.eclipse.emf_2.35.0.v20230829-0934/">
+		</feature>
 		<feature id="org.eclipse.jpt.common.feature" version="1.5.100.v202301061019" url="features/org.eclipse.jpt.common.feature_1.5.100.v202301061019/" plugin-identifier="org.eclipse.jpt.common.branding">
 		</feature>
 		<feature id="org.eclipse.wst.xml_core.feature" version="3.30.0.v202305230750" url="features/org.eclipse.wst.xml_core.feature_3.30.0.v202305230750/">
 		</feature>
 		<feature id="org.eclipse.jst.enterprise_userdoc.feature" version="3.23.0.v202107101916" url="features/org.eclipse.jst.enterprise_userdoc.feature_3.23.0.v202107101916/">
-		</feature>
-		<feature id="org.eclipse.gef" version="3.16.0.202306071707" url="features/org.eclipse.gef_3.16.0.202306071707/">
 		</feature>
 		<feature id="org.eclipse.jst.ws.jaxws.feature" version="1.2.800.v202212030959" url="features/org.eclipse.jst.ws.jaxws.feature_1.2.800.v202212030959/" plugin-identifier="org.eclipse.jst.ws.jaxws.core">
 		</feature>
@@ -311,7 +317,7 @@
 		</feature>
 		<feature id="org.eclipse.mylyn.context_feature" version="3.26.1.v20230604-1755" url="features/org.eclipse.mylyn.context_feature_3.26.1.v20230604-1755/" plugin-identifier="org.eclipse.mylyn.context.core">
 		</feature>
-		<feature id="org.eclipse.emf.edit" version="2.19.0.v20230211-1150" url="features/org.eclipse.emf.edit_2.19.0.v20230211-1150/">
+		<feature id="org.eclipse.emf.edit" version="2.20.0.v20230828-0616" url="features/org.eclipse.emf.edit_2.20.0.v20230828-0616/">
 		</feature>
 		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.4.2000.v20230509-1332" url="features/org.eclipse.equinox.p2.extras.feature_1.4.2000.v20230509-1332/">
 		</feature>
@@ -329,13 +335,7 @@
 		</feature>
 		<feature id="org.eclipse.jst.server_adapters.feature" version="3.2.800.v202301120749" url="features/org.eclipse.jst.server_adapters.feature_3.2.800.v202301120749/">
 		</feature>
-		<feature id="org.eclipse.emf.codegen.ecore.ui" version="2.34.0.v20230326-0924" url="features/org.eclipse.emf.codegen.ecore.ui_2.34.0.v20230326-0924/">
-		</feature>
-		<feature id="org.eclipse.emf.common" version="2.29.0.v20230315-1321" url="features/org.eclipse.emf.common_2.29.0.v20230315-1321/">
-		</feature>
 		<feature id="org.eclipse.buildship" version="3.1.7.v20230428-1350" url="features/org.eclipse.buildship_3.1.7.v20230428-1350/" plugin-identifier="org.eclipse.buildship.branding">
-		</feature>
-		<feature id="org.eclipse.emf" version="2.34.0.v20230406-1334" url="features/org.eclipse.emf_2.34.0.v20230406-1334/">
 		</feature>
 		<feature id="org.eclipse.mylyn.team_feature" version="3.26.1.v20230604-1755" url="features/org.eclipse.mylyn.team_feature_3.26.1.v20230604-1755/" plugin-identifier="org.eclipse.mylyn.context.core">
 		</feature>
@@ -344,6 +344,8 @@
 		<feature id="org.eclipse.wst.xml_ui.feature" version="3.30.0.v202305230750" url="features/org.eclipse.wst.xml_ui.feature_3.30.0.v202305230750/" plugin-identifier="org.eclipse.wst.xml.ui">
 		</feature>
 		<feature id="org.eclipse.tm.terminal.connector.ssh.feature" version="11.2.0.202303140100" url="features/org.eclipse.tm.terminal.connector.ssh.feature_11.2.0.202303140100/" plugin-identifier="org.eclipse.tm.terminal.connector.ssh">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.35.0.v20230829-0934" url="features/org.eclipse.emf.ecore_2.35.0.v20230829-0934/">
 		</feature>
 	</site>
 </config>
