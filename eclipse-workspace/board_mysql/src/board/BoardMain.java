@@ -7,22 +7,22 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class BoardExample2 {
+public class BoardMain {
 
 	private Scanner sc = new Scanner(System.in);
 	private Connection conn;
 	private PreparedStatement pstmt;
 	
 	//db 연결 관련 변수
-	private String driverClass = "oracle.jdbc.OracleDriver";
-	private String url = "jdbc:oracle:thin:@localhost:1521/xe";
-	private String user = "c##mydb";
-	private String password = "pwmydb";
+	String driverClass ="com.mysql.cj.jdbc.Driver";
+    String url = "jdbc:mysql://127.0.01:3306/mydb?serverTime=Asia/Seoul";
+    String user ="myuser";
+    String password ="pwmyuser";
 	
 	//생성자
-	public BoardExample2() {
+	public BoardMain() {
 		try {
-	         Class.forName("oracle.jdbc.OracleDriver");
+	         Class.forName("com.mysql.cj.jdbc.Driver");
 	         conn = DriverManager.getConnection(url, user, password);
 	         System.out.println("DB 연결 성공!" + conn);
 	      } catch (Exception e) {
@@ -47,18 +47,18 @@ public class BoardExample2 {
 			while(rs.next()) {	//게시글이 있는 동안 반복(다음 행으로 이동)
 				Board board = new Board();
 				board.setBno(rs.getInt("bno"));
-				board.setBwriter(rs.getString("bwriter"));
-				board.setBdate(rs.getDate("bdate"));
 				board.setBtitle(rs.getString("btitle"));
-				//board.setBcontent(rs.getString("bcontent"));
+				board.setBwriter(rs.getString("bwriter"));
+				board.setBdate(rs.getTimestamp("bdate"));
+				board.setBcontent(rs.getString("bcontent"));
 
 				//게시글 출력
 				System.out.printf("%-4s%-12s%-20s%-20s \n",
 									board.getBno(), 
 									board.getBwriter(),
 									board.getBdate(),
-									board.getBtitle()
-									//board.getBcontent()
+									board.getBtitle(),
+									board.getBcontent()
 				);	
 			}//while
 			rs.close();
@@ -108,8 +108,8 @@ public class BoardExample2 {
 		
 		//DB처리
 		try {
-			String sql = "INSERT INTO board(bno, btitle, bcontent, bwriter)"
-					+ "VALUES (seq.NEXTVAL, ?, ?, ? )";
+			String sql = "INSERT INTO board(btitle, bcontent, bwriter)"
+					+ "VALUES (?, ?, ? )";
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, board.getBtitle());
 			pstmt.setString(2, board.getBcontent());
@@ -147,7 +147,7 @@ public class BoardExample2 {
 				//DB값을 가져와 board에 세팅
 				board.setBno(rs.getInt("bno"));
 				board.setBwriter(rs.getString("bwriter"));
-				board.setBdate(rs.getDate("bdate"));
+				board.setBdate(rs.getTimestamp("bdate"));
 				board.setBtitle(rs.getString("btitle"));
 				board.setBcontent(rs.getString("bcontent"));
 				
@@ -255,15 +255,6 @@ public class BoardExample2 {
 				//SQL 실행
 				pstmt.executeUpdate();
 				
-				//삭제 후, 글 번호가 이어진 번호로 출력되는 문제 발생(1부터 초기화)
-				sql = "DROP SEQUENCE seq";
-				pstmt = conn.prepareStatement(sql);
-				pstmt.executeUpdate();
-				
-				sql = "CREATE SEQUENCE seq NOCACHE";
-				pstmt = conn.prepareStatement(sql);
-				pstmt.executeUpdate();
-				
 				pstmt.close();
 			} catch (SQLException e) {
 				e.printStackTrace();
@@ -285,7 +276,7 @@ public class BoardExample2 {
 	} 
 	
 	public static void main(String[] args) {
-		BoardExample2 bd1 = new BoardExample2();
+		BoardMain bd1 = new BoardMain();
 		bd1.list();	
 	}
 }
