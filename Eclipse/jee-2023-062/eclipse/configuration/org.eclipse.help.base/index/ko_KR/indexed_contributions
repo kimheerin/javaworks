@@ -1,5 +1,5 @@
 #This is a generated file; do not edit.
-#Tue Sep 26 16:32:17 KST 2023
+#Fri Oct 27 15:41:25 KST 2023
 org.eclipse.help=org.eclipse.help\n3.10.0.v20230317-0802
 org.eclipse.mylyn.help.ui=org.eclipse.mylyn.help.ui\n3.26.1.v20230604-1755
 org.eclipse.wst.wsdl.ui.doc.user=org.eclipse.wst.wsdl.ui.doc.user\n1.0.850.v201903222115
@@ -31,6 +31,7 @@ org.eclipse.pde=org.eclipse.pde\n3.13.2300.v20230605-0440
 org.eclipse.jpt.doc.user=org.eclipse.jpt.doc.user\n3.2.101.v201902121834
 org.eclipse.jst.ws.doc.user=org.eclipse.jst.ws.doc.user\n1.0.700.v201903222115
 org.eclipse.wst.xsdeditor.doc.user=org.eclipse.wst.xsdeditor.doc.user\n1.0.800.v201903222120
+com.tomato.exerd.intro=com.tomato.exerd.intro\n2.5.17.20220110-1118
 org.eclipse.jdt=org.eclipse.jdt\n3.19.100.v20230605-0440
 org.eclipse.jst.ws.jaxws.doc.user=org.eclipse.jst.ws.jaxws.doc.user\n1.0.400.v201902162216
 org.eclipse.jst.ws.axis2.ui.doc.user=org.eclipse.jst.ws.axis2.ui.doc.user\n1.0.200.v201903222115
@@ -43,6 +44,7 @@ org.eclipse.datatools.intro=org.eclipse.datatools.intro\n1.15.0.202305310959
 org.eclipse.m2e.core.ui=org.eclipse.m2e.core.ui\n2.0.5.20230320-1220
 org.eclipse.epp.mpc.help.ui=org.eclipse.epp.mpc.help.ui\n1.10.1.v20221110-1841
 org.eclipse.wst.xmleditor.doc.user=org.eclipse.wst.xmleditor.doc.user\n1.1.0.v201903222120
+com.tomato.exerd.help=com.tomato.exerd.help\n2.5.17.20220110-1118
 org.eclipse.oomph.setup.doc=org.eclipse.oomph.setup.doc\n1.14.0.v20230618-0610
 org.eclipse.ui.cheatsheets=org.eclipse.ui.cheatsheets\n3.8.0.v20230317-0802
 org.eclipse.jst.jsf.facesconfig.ui=org.eclipse.jst.jsf.facesconfig.ui\n1.7.0.v202305071652
